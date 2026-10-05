@@ -1,0 +1,125 @@
+<svg width="100%" viewBox="0 0 680 604" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Comparison of inner, left, right and full joins on member and loan</title>
+<text x="24" y="24" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="14" font-weight="600" fill="rgb(11,11,11)">Four joins on the same two tables (member.member_id = loan.member_id)</text>
+<text x="190" y="52" text-anchor="middle" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="13" font-weight="500" fill="rgb(11,11,11)">member</text>
+<text x="510" y="52" text-anchor="middle" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="13" font-weight="500" fill="rgb(11,11,11)">loan</text>
+<rect x="120" y="60" width="140" height="96" rx="0" fill="rgb(252,252,251)" stroke="rgba(11,11,11,0.2)" stroke-width="1"/>
+<rect x="120" y="60" width="140" height="24" rx="0" fill="rgb(230,241,251)" stroke="rgb(24,95,165)" stroke-width="0.5"/>
+<line x1="175" y1="60" x2="175" y2="156" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<line x1="120" y1="84" x2="260" y2="84" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<line x1="120" y1="108" x2="260" y2="108" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<line x1="120" y1="132" x2="260" y2="132" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<text x="147.5" y="72.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="500" fill="rgb(24,95,165)">member_id</text>
+<text x="217.5" y="72.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="500" fill="rgb(24,95,165)">full_name</text>
+<text x="147.5" y="96.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">1</text>
+<text x="217.5" y="96.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">Alice</text>
+<text x="147.5" y="120.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">2</text>
+<text x="217.5" y="120.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">Bob</text>
+<text x="147.5" y="144.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">3</text>
+<text x="217.5" y="144.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">Carol</text>
+<rect x="420" y="60" width="180" height="120" rx="0" fill="rgb(252,252,251)" stroke="rgba(11,11,11,0.2)" stroke-width="1"/>
+<rect x="420" y="60" width="180" height="24" rx="0" fill="rgb(225,245,238)" stroke="rgb(15,110,86)" stroke-width="0.5"/>
+<line x1="475" y1="60" x2="475" y2="180" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<line x1="535" y1="60" x2="535" y2="180" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<line x1="420" y1="84" x2="600" y2="84" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<line x1="420" y1="108" x2="600" y2="108" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<line x1="420" y1="132" x2="600" y2="132" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<line x1="420" y1="156" x2="600" y2="156" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<text x="447.5" y="72.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="500" fill="rgb(15,110,86)">loan_id</text>
+<text x="505.0" y="72.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="500" fill="rgb(15,110,86)">member_id</text>
+<text x="567.5" y="72.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="500" fill="rgb(15,110,86)">book_id</text>
+<text x="447.5" y="96.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">101</text>
+<text x="505.0" y="96.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">1</text>
+<text x="567.5" y="96.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">7</text>
+<text x="447.5" y="120.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">102</text>
+<text x="505.0" y="120.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">1</text>
+<text x="567.5" y="120.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">3</text>
+<text x="447.5" y="144.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">103</text>
+<text x="505.0" y="144.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">2</text>
+<text x="567.5" y="144.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">5</text>
+<text x="447.5" y="168.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">104</text>
+<text x="505.0" y="168.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">4</text>
+<text x="567.5" y="168.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">9</text>
+<text x="70" y="240" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="13" font-weight="500" fill="rgb(11,11,11)">INNER JOIN</text>
+<text x="70" y="255" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="11.5" font-weight="400" fill="rgb(82,81,78)">only matching rows</text>
+<rect x="70" y="264" width="170" height="96" rx="0" fill="rgb(252,252,251)" stroke="rgba(11,11,11,0.2)" stroke-width="1"/>
+<rect x="70" y="264" width="170" height="24" rx="0" fill="rgb(241,239,232)" stroke="rgb(95,94,90)" stroke-width="0.5"/>
+<line x1="160" y1="264" x2="160" y2="360" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<line x1="70" y1="288" x2="240" y2="288" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<line x1="70" y1="312" x2="240" y2="312" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<line x1="70" y1="336" x2="240" y2="336" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<text x="115.0" y="276.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="500" fill="rgb(95,94,90)">full_name</text>
+<text x="200.0" y="276.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="500" fill="rgb(95,94,90)">book_id</text>
+<text x="115.0" y="300.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">Alice</text>
+<text x="200.0" y="300.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">7</text>
+<text x="115.0" y="324.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">Alice</text>
+<text x="200.0" y="324.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">3</text>
+<text x="115.0" y="348.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">Bob</text>
+<text x="200.0" y="348.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">5</text>
+<text x="380" y="240" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="13" font-weight="500" fill="rgb(11,11,11)">LEFT JOIN</text>
+<text x="380" y="255" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="11.5" font-weight="400" fill="rgb(82,81,78)">all members kept</text>
+<rect x="380" y="264" width="170" height="120" rx="0" fill="rgb(252,252,251)" stroke="rgba(11,11,11,0.2)" stroke-width="1"/>
+<rect x="380" y="264" width="170" height="24" rx="0" fill="rgb(241,239,232)" stroke="rgb(95,94,90)" stroke-width="0.5"/>
+<rect x="470" y="360" width="80" height="24" fill="rgb(250,238,218)" stroke="none"/>
+<line x1="470" y1="264" x2="470" y2="384" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<line x1="380" y1="288" x2="550" y2="288" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<line x1="380" y1="312" x2="550" y2="312" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<line x1="380" y1="336" x2="550" y2="336" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<line x1="380" y1="360" x2="550" y2="360" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<text x="425.0" y="276.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="500" fill="rgb(95,94,90)">full_name</text>
+<text x="510.0" y="276.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="500" fill="rgb(95,94,90)">book_id</text>
+<text x="425.0" y="300.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">Alice</text>
+<text x="510.0" y="300.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">7</text>
+<text x="425.0" y="324.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">Alice</text>
+<text x="510.0" y="324.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">3</text>
+<text x="425.0" y="348.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">Bob</text>
+<text x="510.0" y="348.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">5</text>
+<text x="425.0" y="372.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">Carol</text>
+<text x="510.0" y="372.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="500" fill="rgb(99,56,6)">NULL</text>
+<text x="70" y="430" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="13" font-weight="500" fill="rgb(11,11,11)">RIGHT JOIN</text>
+<text x="70" y="445" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="11.5" font-weight="400" fill="rgb(82,81,78)">all loans kept</text>
+<rect x="70" y="454" width="170" height="120" rx="0" fill="rgb(252,252,251)" stroke="rgba(11,11,11,0.2)" stroke-width="1"/>
+<rect x="70" y="454" width="170" height="24" rx="0" fill="rgb(241,239,232)" stroke="rgb(95,94,90)" stroke-width="0.5"/>
+<rect x="70" y="550" width="90" height="24" fill="rgb(250,238,218)" stroke="none"/>
+<line x1="160" y1="454" x2="160" y2="574" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<line x1="70" y1="478" x2="240" y2="478" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<line x1="70" y1="502" x2="240" y2="502" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<line x1="70" y1="526" x2="240" y2="526" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<line x1="70" y1="550" x2="240" y2="550" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<text x="115.0" y="466.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="500" fill="rgb(95,94,90)">full_name</text>
+<text x="200.0" y="466.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="500" fill="rgb(95,94,90)">book_id</text>
+<text x="115.0" y="490.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">Alice</text>
+<text x="200.0" y="490.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">7</text>
+<text x="115.0" y="514.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">Alice</text>
+<text x="200.0" y="514.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">3</text>
+<text x="115.0" y="538.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">Bob</text>
+<text x="200.0" y="538.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">5</text>
+<text x="115.0" y="562.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="500" fill="rgb(99,56,6)">NULL</text>
+<text x="200.0" y="562.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">9</text>
+<text x="380" y="430" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="13" font-weight="500" fill="rgb(11,11,11)">FULL JOIN</text>
+<text x="380" y="445" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="11.5" font-weight="400" fill="rgb(82,81,78)">everything kept</text>
+<rect x="380" y="454" width="170" height="144" rx="0" fill="rgb(252,252,251)" stroke="rgba(11,11,11,0.2)" stroke-width="1"/>
+<rect x="380" y="454" width="170" height="24" rx="0" fill="rgb(241,239,232)" stroke="rgb(95,94,90)" stroke-width="0.5"/>
+<rect x="470" y="550" width="80" height="24" fill="rgb(250,238,218)" stroke="none"/>
+<rect x="380" y="574" width="90" height="24" fill="rgb(250,238,218)" stroke="none"/>
+<line x1="470" y1="454" x2="470" y2="598" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<line x1="380" y1="478" x2="550" y2="478" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<line x1="380" y1="502" x2="550" y2="502" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<line x1="380" y1="526" x2="550" y2="526" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<line x1="380" y1="550" x2="550" y2="550" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<line x1="380" y1="574" x2="550" y2="574" stroke="rgba(11,11,11,0.1)" stroke-width="0.5"/>
+<text x="425.0" y="466.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="500" fill="rgb(95,94,90)">full_name</text>
+<text x="510.0" y="466.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="500" fill="rgb(95,94,90)">book_id</text>
+<text x="425.0" y="490.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">Alice</text>
+<text x="510.0" y="490.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">7</text>
+<text x="425.0" y="514.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">Alice</text>
+<text x="510.0" y="514.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">3</text>
+<text x="425.0" y="538.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">Bob</text>
+<text x="510.0" y="538.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">5</text>
+<text x="425.0" y="562.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">Carol</text>
+<text x="510.0" y="562.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="500" fill="rgb(99,56,6)">NULL</text>
+<text x="425.0" y="586.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="500" fill="rgb(99,56,6)">NULL</text>
+<text x="510.0" y="586.0" text-anchor="middle" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="12" font-weight="400" fill="rgb(82,81,78)">9</text>
+<rect x="70" y="576" width="15" height="15" rx="3" fill="rgb(250,238,218)" stroke="none"/>
+<text x="93" y="584" dominant-baseline="central" font-family='-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' font-size="11.5" fill="rgb(82,81,78)">NULL is added by an outer join where a row had no match on the other side</text>
+</svg>

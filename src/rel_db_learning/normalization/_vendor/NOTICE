@@ -1,0 +1,24 @@
+This directory contains a vendored subset of the "dbis-functional-dependencies"
+package, version 1.0.4, distributed under the Apache License, Version 2.0.
+
+  Upstream project: dbis-functional-dependencies
+  Version:          1.0.4
+  License:          Apache License, Version 2.0 (see the LICENSE file here)
+  Source:           https://pypi.org/project/dbis-functional-dependencies/
+  Original author:  see the module headers (BCNF.py credits maxwellgerber)
+
+Vendored modules:
+  - BCNF.py     (functional dependency set, closure, candidate keys, normal
+                 form tests, synthesis and decomposition)
+  - fdsbase.py  (supporting Attribute / Set / Notation / FD primitives)
+
+Local modifications:
+  - BCNF.py: the import of "fdsbase" was changed from an absolute import
+    ("from dbis_functional_dependencies.fdsbase import ...") to a relative
+    import ("from .fdsbase import ...") so the subset works as a standalone
+    package. No functional logic was altered.
+
+The remaining upstream modules (fds.py, fdcheck.py) and the upstream package
+metadata (which declared sphinx, build, networkx, and graphviz as runtime
+dependencies) were intentionally not vendored, as the functional-dependency
+logic does not require them.
